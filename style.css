@@ -380,7 +380,7 @@ footer {
         align-items: center;
     }
 
-    .project__item:nth-child(2) {
+    .project__item:nth-child(2), .project__item:nth-child(4)  {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -388,5 +388,9 @@ footer {
     .project__item-content {
         text-align: center;
         margin: 4rem 1rem;
+    }
+
+    .container.contact__container {
+        width: 90%;
     }
 }
